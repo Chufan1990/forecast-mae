@@ -1,2 +1,2 @@
 run:
-  dir: /model/${output}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  dir: ${output_dir}/${output}/${now:%Y-%m-%d}/${now:%H-%M-%S}

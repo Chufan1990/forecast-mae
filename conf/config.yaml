@@ -11,6 +11,7 @@ data_root:
 checkpoint:
 pretrained_weights:
 output: ${model.name}-${model.phase}
+output_dir: output
 
 # trainer
 num_workers: 8
